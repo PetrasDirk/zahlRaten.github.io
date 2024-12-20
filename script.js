@@ -3,7 +3,6 @@ let numberToGuess = Math.round(Math.random() * 100);
 let tries = 0;
 
 function guessTheNumber() {
-    alert("Es funktioniert!");
 
     tries = tries + 1;
     displayTries.innerHTML = 'Versuche: ' + tries;
